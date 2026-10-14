@@ -1,0 +1,12 @@
+:root{--ink:#111b15;--muted:#525c52}
+body{color:var(--ink);font-size:16px}
+.breadcrumbs,.section-kicker,.screen-course,.screen-mark{color:#4f594f}
+.chapter-card h3{font-size:16px;color:#111b15}.chapter-card p{font-size:12px;color:#4f594f}.card-top,.card-foot{font-size:10px;color:#515c51}
+.nav-chapter{font-size:13px;color:#39473c}.nav-num{font-size:11px;color:#515c51}.course-card small,.mini-progress small,.sidebar-link{font-size:12px;color:#505b50}
+.hero-copy>p,.overview-head>p,.resource-band p{font-size:14px;color:#414d43}.hero-foot,footer{color:#5a6459}.stat span{font-size:10px;color:#4d584e}
+.dialog-content,.intro{font-size:15px;color:#39463b}.screen-main{color:#111b15}.study-page>h1{font-size:clamp(42px,5vw,58px);color:#111b15}.study-page>.section-kicker{font-size:11px;color:#4d584e}
+.study-section h3{font-size:16px;color:#173f2b}.study-section p{font:15px/1.82 var(--sans);color:#222d24;margin:10px 0 15px}.study-section p:last-child{margin-bottom:2px}
+.study-section-head span{font-size:11px;color:#4e594e}.study-section-head h2,.exam-review h2,.quiz-header h2{font-size:23px;color:#111b15}.chapter-notes{background:#fbfaf5;border-color:#c7cbbf}.study-side .lesson-box h4,.study-side .note-box h4{font-size:11px;color:#38473a}.study-side .lesson-list li{font-size:12px;color:#374439}.study-side textarea{font-size:14px;color:#111b15}
+.exam-review{border-color:#c4cabc}.exam-review ul{font:14px/1.75 var(--sans);color:#263329}.exam-review a,.video-link{font-size:13px;color:#174b32}.question h4,.study-quiz .question h4{font:600 15px/1.65 var(--sans);color:#17231a}.option,.study-quiz .option{font-size:14px;line-height:1.65;color:#263329}.answer-note{font-size:13px;color:#2f4033}.check-button,.mark-button{font-size:13px}.score-text{font-size:12px}
+.note-box textarea{font-size:14px;color:#17231a}.search-field input{color:#111b15}.search-result{font-size:14px;color:#17231a}.search-result small{font-size:10px;color:#515c51}.no-results{font-size:14px;color:#505b50}
+@media(max-width:760px){.hero-copy>p,.overview-head>p,.resource-band p{font-size:14px}.chapter-card h3{font-size:14px}.chapter-card p{font-size:11px}.study-section p{font-size:15px;line-height:1.75}.study-section h3{font-size:15px}.study-page>h1{font-size:38px}.option,.study-quiz .option{font-size:14px}}

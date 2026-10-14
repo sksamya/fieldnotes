@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f4ee" />
+  <meta name="description" content="Chapter-based exam notes and self-checks for the NPTEL IIT Madras Research Methodology course." />
+  <title>Fieldnotes — Research Methodology</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <style>.chapter-notes{border:1px solid var(--line);background:#edf0e6;padding:17px 19px;margin:20px 0 16px}.chapter-notes h3{font:600 13px var(--display);margin:0 0 8px}.chapter-notes ul{margin:0;padding-left:17px;color:#616b60;font-size:10px;line-height:1.7}.chapter-notes li+li{margin-top:5px}.exam-review ul{padding-left:18px;margin:10px 0;color:#616b60;font:11px/1.7 var(--sans)}.exam-review li+li{margin-top:5px}</style>
+  <link rel="stylesheet" href="./study.css" />
+  <link rel="stylesheet" href="./readability.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Fieldnotes home"><span class="brand-mark">f.</span><span>fieldnotes</span></a>
+      <div class="course-label">YOUR COURSE</div>
+      <a class="course-card active" href="#home"><span class="course-icon">↗</span><span><b>Research<br>Methodology</b><small>IIT Madras · NPTEL</small></span><span class="chevron">⌄</span></a>
+      <div class="side-heading"><span>CHAPTERS</span><span id="chapter-count">08</span></div>
+      <nav id="chapter-nav" aria-label="Course chapters"></nav>
+      <div class="sidebar-bottom"><div class="mini-progress"><span class="progress-dot"></span><span><b id="sidebar-progress">0% complete</b><small>Keep your momentum</small></span></div><a class="sidebar-link" href="#resources">↗ <span>Course resources</span></a></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar"><div class="breadcrumbs"><span>MY LEARNING</span><i>/</i><b>RESEARCH METHODOLOGY</b></div><div class="top-actions"><button class="icon-button" id="search-open" aria-label="Search">⌕</button><button class="avatar" title="Your study space">S</button></div></header>
+      <div class="content" id="home">
+        <section class="hero">
+          <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> COURSE OVERVIEW</div><h1>Research<br><em>Methodology</em></h1><p>Chapter notes, course lectures and self-checks for the IIT Madras NPTEL course.</p><div class="hero-ctas"><button class="primary-button" id="continue-button">Continue learning <span>→</span></button><a class="text-link" href="#chapters">View chapters <span>↓</span></a></div></div>
+          <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="art-core"><span>?</span></div><div class="art-star">✳</div><div class="art-coordinate">13° 04′ N<br>80° 14′ E</div></div>
+          <div class="hero-foot"><span>01 — 08</span><span>A COURSE BY IIT MADRAS · NPTEL</span><span>SCROLL TO BEGIN ↓</span></div>
+        </section>
+
+        <section class="overview" id="chapters"><div class="section-kicker">COURSE CHAPTERS <span>01 — 08</span></div><div class="overview-head"><div><h2>Course<br><em>chapters.</em></h2></div><p>Each chapter includes exam notes, lecture links and a short self-check.</p></div>
+          <div class="stats-row"><div class="stat"><b id="overall-progress">0%</b><span>COURSE PROGRESS</span></div><div class="stat"><b id="completed-count">0 / 8</b><span>CHAPTERS COMPLETE</span></div><div class="stat"><b>24</b><span>PRACTICE QUESTIONS</span></div><div class="stat stat-note"><span class="progress-line"><i id="progress-fill"></i></span><span>YOUR LEARNING PATH</span></div></div>
+          <div class="chapter-grid" id="chapter-grid"></div>
+        </section>
+        <section class="resource-band" id="resources"><div class="resource-icon">▶</div><div><span class="section-kicker">COURSE VIDEOS</span><h3>Lecture<br><em>resources.</em></h3><p>Open the linked video, course playlist search or NPTEL course page.</p></div><div class="resource-actions"><a class="resource-button" href="https://youtu.be/WIHVodlDct0?si=9ZxKGS53DzqGHqYR" target="_blank" rel="noreferrer">Open linked lecture <span>↗</span></a><a class="resource-sub" href="https://www.youtube.com/results?search_query=NPTEL+Research+Methodology+IIT+Madras+121106007+playlist" target="_blank" rel="noreferrer">Search YouTube course playlists ↗</a><a class="resource-sub" href="https://nptel.ac.in/courses/121106007" target="_blank" rel="noreferrer">Official NPTEL course page ↗</a></div></section>
+        <footer><span>NPTEL COURSE 121106007</span><span>IIT MADRAS</span></footer>
+      </div>
+    </main>
+  </div>
+  <section id="chapter-screen" class="full-screen" hidden>
+    <header class="screen-header"><button class="back-button" id="chapter-back">← <span>All chapters</span></button><div class="screen-course">RESEARCH METHODOLOGY <i>/</i> <b id="screen-chapter-label">CHAPTER 01</b></div><span class="screen-mark">NPTEL · IIT MADRAS</span></header>
+    <main class="screen-main" id="chapter-content"></main>
+  </section>
+  <section id="search-screen" class="full-screen search-full-screen" hidden>
+    <header class="screen-header"><button class="back-button" id="search-close">← <span>Back</span></button><div class="screen-course">SEARCH COURSE CONTENT</div><span class="screen-mark">ESC TO CLOSE</span></header>
+    <main class="search-main"><label class="search-field"><span>⌕</span><input id="search-input" placeholder="Search chapters, notes and questions..." autocomplete="off"></label><div id="search-results"></div></main>
+  </section>
+  <script src="./study-notes.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
